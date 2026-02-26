@@ -1,0 +1,108 @@
+body {
+  font-family: Arial;
+  margin: 0;
+  background: #f4f6f9;
+}
+
+nav {
+  background: #222;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  color: white;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+header {
+  padding: 40px;
+  background: linear-gradient(120deg,#667eea,#764ba2);
+  color: white;
+}
+
+.highlight {
+  background: yellow;
+  color: black;
+  padding: 5px;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+  gap: 15px;
+  padding: 20px;
+}
+
+.gallery img {
+  width: 100%;
+  border-radius: 10px;
+  transition: 0.4s;
+}
+
+.gallery img:hover {
+  transform: scale(1.1);
+}
+
+.cards {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  padding: 40px;
+}
+
+.card {
+  background: white;
+  padding: 25px;
+  width: 250px;
+  text-align: center;
+  border-radius: 15px;
+  transition: 0.4s;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+}
+
+.modern-table {
+  width: 80%;
+  margin: 20px auto;
+  border-collapse: collapse;
+}
+
+.modern-table th,
+.modern-table td {
+  border: 1px solid #ddd;
+  padding: 10px;
+}
+
+.modern-form {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  margin: auto;
+  gap: 15px;
+}
+
+.modern-form button {
+  padding: 10px;
+  background: #667eea;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+footer {
+  background: #222;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
